@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-decoration: none;
+   box-sizing: border-box;
+
+}
+body {
+   background-color: #0D192C;
+   padding: 152px;
+}
+.BigBox{
+   width: 350px;
+   height: 596px;
+   background-color: #15263F;
+   border-radius: 15px;
+   padding: 24px;
+   margin:0 auto;
+}
+.ActivyBox{
+   width: 302px;
+   height: 302px;
+   background-color: #00FFF8;
+   border-radius: 8px;
+   position: relative;
+   cursor: pointer;
+}
+.ActivyBoxImg{
+   width: 100%;
+   border-radius: 8px;
+}
+.Tvali{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: none;
+}
+.Equilibrium{
+   font-size: 22px;
+   font-family: sans-serif;
+   font-weight: 600;
+   color:#00FFF8 ;
+   margin-top: 12px;
+}
+.balance{
+   font-size: 18px;
+   color: #8BACD9;
+   margin-top: 16px;
+}
+.ETHBOX{
+   display: flex;
+}
+.ETHBOX img{
+   margin-right: 6px;
+}
+.daysleftbox{
+   display: flex;
+}
+.daysleftbox img{
+   margin-right: 6px;
+}
+.ETHdayslefBOX{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 24px;
+   margin-bottom: 24px;
+}
+.line{
+   width: 302px;
+   height: 1px;
+   background-color: #2E405A;
+}
+.CreationBox{
+   display: flex;
+}
+.ETHTEXT{
+   font-size: 16px;
+   color: #00FFF8;
+}
+.CreationBox img{
+   margin-top: 16px;
+   margin-right: 16px;
+}
+.CreationText{
+   font-size: 16px;
+   color: #8BACD9;
+   margin-top: 22px;
+   margin-right: 8px;
+}
+.JulesText{
+   font-size: 16px;
+   color: #00FFF8;
+   margin-top: 22px;
+}
+.ActivyBox:hover .ActivyBoxImg{
+   opacity: 0.5;
+}
+.ActivyBox:hover .Tvali{
+   display: block;
+}
