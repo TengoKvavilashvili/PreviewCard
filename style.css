@@ -6,19 +6,22 @@
    box-sizing: border-box;
 
 }
+
 body {
    background-color: #0D192C;
    padding: 152px;
 }
-.BigBox{
+
+.BigBox {
    width: 350px;
    height: 596px;
    background-color: #15263F;
    border-radius: 15px;
    padding: 24px;
-   margin:0 auto;
+   margin: 0 auto;
 }
-.ActivyBox{
+
+.ActivyBox {
    width: 302px;
    height: 302px;
    background-color: #00FFF8;
@@ -26,77 +29,94 @@ body {
    position: relative;
    cursor: pointer;
 }
-.ActivyBoxImg{
+
+.ActivyBoxImg {
    width: 100%;
    border-radius: 8px;
 }
-.Tvali{
+
+.Tvali {
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    display: none;
 }
-.Equilibrium{
+
+.Equilibrium {
    font-size: 22px;
    font-family: sans-serif;
    font-weight: 600;
-   color:#00FFF8 ;
+   color: #00FFF8;
    margin-top: 12px;
 }
-.balance{
+
+.balance {
    font-size: 18px;
    color: #8BACD9;
    margin-top: 16px;
 }
-.ETHBOX{
+
+.ETHBOX {
    display: flex;
 }
-.ETHBOX img{
+
+.ETHBOX img {
    margin-right: 6px;
 }
-.daysleftbox{
+
+.daysleftbox {
    display: flex;
 }
-.daysleftbox img{
+
+.daysleftbox img {
    margin-right: 6px;
 }
-.ETHdayslefBOX{
+
+.ETHdayslefBOX {
    display: flex;
    justify-content: space-between;
    margin-top: 24px;
    margin-bottom: 24px;
 }
-.line{
+
+.line {
    width: 302px;
    height: 1px;
    background-color: #2E405A;
 }
-.CreationBox{
+
+.CreationBox {
    display: flex;
 }
-.ETHTEXT{
+
+.ETHTEXT {
    font-size: 16px;
    color: #00FFF8;
 }
-.CreationBox img{
+
+.CreationBox img {
    margin-top: 16px;
    margin-right: 16px;
 }
-.CreationText{
+
+.CreationText {
    font-size: 16px;
    color: #8BACD9;
    margin-top: 22px;
    margin-right: 8px;
 }
-.JulesText{
+
+.JulesText {
    font-size: 16px;
    color: #00FFF8;
    margin-top: 22px;
 }
-.ActivyBox:hover .ActivyBoxImg{
+
+.ActivyBox:hover .ActivyBoxImg {
    opacity: 0.5;
 }
-.ActivyBox:hover .Tvali{
+
+.ActivyBox:hover .Tvali {
    display: block;
 }
